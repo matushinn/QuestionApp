@@ -15,6 +15,9 @@
 		37C8046A26A66E6700FDBF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C8046826A66E6700FDBF61 /* LaunchScreen.storyboard */; };
 		37C8047526A66E6800FDBF61 /* QuestionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8047426A66E6800FDBF61 /* QuestionAppTests.swift */; };
 		37C8048026A66E6800FDBF61 /* QuestionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8047F26A66E6800FDBF61 /* QuestionAppUITests.swift */; };
+		37C8048E26A670F000FDBF61 /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37C8048D26A670F000FDBF61 /* batsuSound.mp3 */; };
+		37C8049026A670FA00FDBF61 /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37C8048F26A670FA00FDBF61 /* maruSound.mp3 */; };
+		37C8049526A6720000FDBF61 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8049426A6720000FDBF61 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		37C8047B26A66E6800FDBF61 /* QuestionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C8047F26A66E6800FDBF61 /* QuestionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAppUITests.swift; sourceTree = "<group>"; };
 		37C8048126A66E6800FDBF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C8048D26A670F000FDBF61 /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = batsuSound.mp3; path = "../../../../Downloads/Resources/iOS14画像集/QuestionApp1素材/batsuSound.mp3"; sourceTree = "<group>"; };
+		37C8048F26A670FA00FDBF61 /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maruSound.mp3; path = "../../../../Downloads/Resources/iOS14画像集/QuestionApp1素材/maruSound.mp3"; sourceTree = "<group>"; };
+		37C8049426A6720000FDBF61 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,13 @@
 		37C8045C26A66E6200FDBF61 /* QuestionApp */ = {
 			isa = PBXGroup;
 			children = (
-				37C8045D26A66E6200FDBF61 /* AppDelegate.swift */,
-				37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */,
-				37C8046126A66E6200FDBF61 /* ViewController.swift */,
-				37C8046326A66E6200FDBF61 /* Main.storyboard */,
-				37C8046626A66E6700FDBF61 /* Assets.xcassets */,
+				37C8049126A6716800FDBF61 /* Model */,
+				37C8049226A6717F00FDBF61 /* View */,
+				37C8049326A6718500FDBF61 /* Controller */,
 				37C8046826A66E6700FDBF61 /* LaunchScreen.storyboard */,
+				37C8048D26A670F000FDBF61 /* batsuSound.mp3 */,
 				37C8046B26A66E6700FDBF61 /* Info.plist */,
+				37C8048F26A670FA00FDBF61 /* maruSound.mp3 */,
 			);
 			path = QuestionApp;
 			sourceTree = "<group>";
@@ -126,6 +132,33 @@
 				37C8048126A66E6800FDBF61 /* Info.plist */,
 			);
 			path = QuestionAppUITests;
+			sourceTree = "<group>";
+		};
+		37C8049126A6716800FDBF61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37C8049226A6717F00FDBF61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37C8046326A66E6200FDBF61 /* Main.storyboard */,
+				37C8046626A66E6700FDBF61 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37C8049326A6718500FDBF61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37C8045D26A66E6200FDBF61 /* AppDelegate.swift */,
+				37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */,
+				37C8046126A66E6200FDBF61 /* ViewController.swift */,
+				37C8049426A6720000FDBF61 /* NextViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C8048E26A670F000FDBF61 /* batsuSound.mp3 in Resources */,
+				37C8049026A670FA00FDBF61 /* maruSound.mp3 in Resources */,
 				37C8046A26A66E6700FDBF61 /* LaunchScreen.storyboard in Resources */,
 				37C8046726A66E6700FDBF61 /* Assets.xcassets in Resources */,
 				37C8046526A66E6200FDBF61 /* Main.storyboard in Resources */,
@@ -259,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */,
+				37C8049526A6720000FDBF61 /* NextViewController.swift in Sources */,
 				37C8045E26A66E6200FDBF61 /* AppDelegate.swift in Sources */,
 				37C8046026A66E6200FDBF61 /* SceneDelegate.swift in Sources */,
 			);
