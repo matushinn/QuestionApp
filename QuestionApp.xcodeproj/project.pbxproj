@@ -11,6 +11,8 @@
 		370DA99926A6B4B200D89A49 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99826A6B4B200D89A49 /* Animal.swift */; };
 		370DA99B26A6B4EC00D89A49 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99A26A6B4EC00D89A49 /* Human.swift */; };
 		370DA99D26A6B60C00D89A49 /* WithOutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */; };
+		370DA99F26A6B8E400D89A49 /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99E26A6B8E300D89A49 /* ChangeColor.swift */; };
+		370DA9A126A6BBDD00D89A49 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9A026A6BBDD00D89A49 /* sound.mp3 */; };
 		37C8045E26A66E6200FDBF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8045D26A66E6200FDBF61 /* AppDelegate.swift */; };
 		37C8046026A66E6200FDBF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */; };
 		37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8046126A66E6200FDBF61 /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 		370DA99826A6B4B200D89A49 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		370DA99A26A6B4EC00D89A49 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutMP3.swift; sourceTree = "<group>"; };
+		370DA99E26A6B8E300D89A49 /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
+		370DA9A026A6BBDD00D89A49 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = "../../../../Downloads/Resources/iOS14画像集/QuestionApp1素材/sound.mp3"; sourceTree = "<group>"; };
 		37C8045A26A66E6200FDBF61 /* QuestionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C8045D26A66E6200FDBF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				37C8049326A6718500FDBF61 /* Controller */,
 				37C8046826A66E6700FDBF61 /* LaunchScreen.storyboard */,
 				37C8048D26A670F000FDBF61 /* batsuSound.mp3 */,
+				370DA9A026A6BBDD00D89A49 /* sound.mp3 */,
 				37C8046B26A66E6700FDBF61 /* Info.plist */,
 				37C8048F26A670FA00FDBF61 /* maruSound.mp3 */,
 			);
@@ -155,6 +160,7 @@
 				370DA99826A6B4B200D89A49 /* Animal.swift */,
 				370DA99A26A6B4EC00D89A49 /* Human.swift */,
 				370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */,
+				370DA99E26A6B8E300D89A49 /* ChangeColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				37C8049026A670FA00FDBF61 /* maruSound.mp3 in Resources */,
 				37C8046A26A66E6700FDBF61 /* LaunchScreen.storyboard in Resources */,
 				37C8046726A66E6700FDBF61 /* Assets.xcassets in Resources */,
+				370DA9A126A6BBDD00D89A49 /* sound.mp3 in Resources */,
 				37C8046526A66E6200FDBF61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */,
+				370DA99F26A6B8E400D89A49 /* ChangeColor.swift in Sources */,
 				370DA99926A6B4B200D89A49 /* Animal.swift in Sources */,
 				370DA99726A6A6DC00D89A49 /* SoundFile.swift in Sources */,
 				37C8049926A68FDC00FDBF61 /* ImagesList.swift in Sources */,

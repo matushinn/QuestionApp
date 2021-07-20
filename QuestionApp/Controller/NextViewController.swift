@@ -42,7 +42,7 @@ class NextViewController: UIViewController {
     @IBAction func back(_ sender: Any) {
         
         //もし最高得点であれば、入れ替え
-        if beforeCount < correctedCount {
+        if beforeCount <= correctedCount {
             UserDefaults.standard.set(correctedCount, forKey: "beforeCount")
             delegate?.nowScore(score: correctedCount)
         }else if beforeCount > correctedCount{
