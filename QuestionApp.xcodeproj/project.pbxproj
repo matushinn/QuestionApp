@@ -18,6 +18,8 @@
 		37C8048E26A670F000FDBF61 /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37C8048D26A670F000FDBF61 /* batsuSound.mp3 */; };
 		37C8049026A670FA00FDBF61 /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37C8048F26A670FA00FDBF61 /* maruSound.mp3 */; };
 		37C8049526A6720000FDBF61 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8049426A6720000FDBF61 /* NextViewController.swift */; };
+		37C8049726A68F3A00FDBF61 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8049626A68F3A00FDBF61 /* ImagesModel.swift */; };
+		37C8049926A68FDC00FDBF61 /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8049826A68FDC00FDBF61 /* ImagesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		37C8048D26A670F000FDBF61 /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = batsuSound.mp3; path = "../../../../Downloads/Resources/iOS14画像集/QuestionApp1素材/batsuSound.mp3"; sourceTree = "<group>"; };
 		37C8048F26A670FA00FDBF61 /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maruSound.mp3; path = "../../../../Downloads/Resources/iOS14画像集/QuestionApp1素材/maruSound.mp3"; sourceTree = "<group>"; };
 		37C8049426A6720000FDBF61 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		37C8049626A68F3A00FDBF61 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		37C8049826A68FDC00FDBF61 /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		37C8049126A6716800FDBF61 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				37C8049626A68F3A00FDBF61 /* ImagesModel.swift */,
+				37C8049826A68FDC00FDBF61 /* ImagesList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,9 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */,
+				37C8049926A68FDC00FDBF61 /* ImagesList.swift in Sources */,
 				37C8049526A6720000FDBF61 /* NextViewController.swift in Sources */,
 				37C8045E26A66E6200FDBF61 /* AppDelegate.swift in Sources */,
 				37C8046026A66E6200FDBF61 /* SceneDelegate.swift in Sources */,
+				37C8049726A68F3A00FDBF61 /* ImagesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
