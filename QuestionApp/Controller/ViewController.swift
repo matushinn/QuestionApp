@@ -27,9 +27,16 @@ class ViewController: UIViewController ,nowScoreDelegate{
     //IBActionで検知した正答がどちらかを取得する変数
     var pickedAnswer = false
     
+    //var withOutMP3 = WithOutMP3()
+    var soundFile = SoundFile()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let human = Human()
+        human.breath()
         
         
     }
@@ -51,8 +58,12 @@ class ViewController: UIViewController ,nowScoreDelegate{
         
         
     }
+    
     @IBAction func answer(_ sender: Any) {
         if (sender as AnyObject).tag == 1 {
+            
+//            withOutMP3.playSound(fileName: "maruSound", extensionName: "mp3")
+            soundFile.playSound(fileName: "maruSound", extensionName: "mp3")
             //丸ボタンが押された時
             pickedAnswer = true
             
@@ -64,6 +75,8 @@ class ViewController: UIViewController ,nowScoreDelegate{
             //丸ボタンの音声を流す
             
         }else if (sender as AnyObject).tag == 2{
+            soundFile.playSound(fileName: "batsuSound", extensionName: "mp3")
+            
             //バツボタンが押された時
             pickedAnswer = false
             

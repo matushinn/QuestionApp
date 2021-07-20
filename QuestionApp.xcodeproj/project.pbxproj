@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370DA99726A6A6DC00D89A49 /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99626A6A6DC00D89A49 /* SoundFile.swift */; };
+		370DA99926A6B4B200D89A49 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99826A6B4B200D89A49 /* Animal.swift */; };
+		370DA99B26A6B4EC00D89A49 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99A26A6B4EC00D89A49 /* Human.swift */; };
+		370DA99D26A6B60C00D89A49 /* WithOutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */; };
 		37C8045E26A66E6200FDBF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8045D26A66E6200FDBF61 /* AppDelegate.swift */; };
 		37C8046026A66E6200FDBF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */; };
 		37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8046126A66E6200FDBF61 /* ViewController.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370DA99626A6A6DC00D89A49 /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		370DA99826A6B4B200D89A49 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		370DA99A26A6B4EC00D89A49 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutMP3.swift; sourceTree = "<group>"; };
 		37C8045A26A66E6200FDBF61 /* QuestionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C8045D26A66E6200FDBF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C8045F26A66E6200FDBF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 			children = (
 				37C8049626A68F3A00FDBF61 /* ImagesModel.swift */,
 				37C8049826A68FDC00FDBF61 /* ImagesList.swift */,
+				370DA99626A6A6DC00D89A49 /* SoundFile.swift */,
+				370DA99826A6B4B200D89A49 /* Animal.swift */,
+				370DA99A26A6B4EC00D89A49 /* Human.swift */,
+				370DA99C26A6B60C00D89A49 /* WithOutMP3.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,9 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C8046226A66E6200FDBF61 /* ViewController.swift in Sources */,
+				370DA99926A6B4B200D89A49 /* Animal.swift in Sources */,
+				370DA99726A6A6DC00D89A49 /* SoundFile.swift in Sources */,
 				37C8049926A68FDC00FDBF61 /* ImagesList.swift in Sources */,
+				370DA99B26A6B4EC00D89A49 /* Human.swift in Sources */,
 				37C8049526A6720000FDBF61 /* NextViewController.swift in Sources */,
 				37C8045E26A66E6200FDBF61 /* AppDelegate.swift in Sources */,
+				370DA99D26A6B60C00D89A49 /* WithOutMP3.swift in Sources */,
 				37C8046026A66E6200FDBF61 /* SceneDelegate.swift in Sources */,
 				37C8049726A68F3A00FDBF61 /* ImagesModel.swift in Sources */,
 			);
