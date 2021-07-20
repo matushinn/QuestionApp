@@ -109,6 +109,10 @@
                         <viewLayoutGuide key="safeArea" id="hss-M5-YXf"/>
                         <color key="backgroundColor" red="0.48486027101270196" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="correctLabel" destination="QIb-MX-A67" id="aHl-M8-c07"/>
+                        <outlet property="wrongLabel" destination="RQb-0B-CVx" id="dIN-jD-OzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LtK-lG-hRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
