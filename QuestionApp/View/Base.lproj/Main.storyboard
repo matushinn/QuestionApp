@@ -104,6 +104,9 @@
                                 <rect key="frame" x="143" y="440" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="home"/>
+                                <connections>
+                                    <action selector="back:" destination="AC4-yz-eKl" eventType="touchUpInside" id="pve-bu-Hne"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hss-M5-YXf"/>

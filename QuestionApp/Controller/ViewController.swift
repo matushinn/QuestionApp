@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,nowScoreDelegate{
+    
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -29,6 +30,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,6 +42,13 @@ class ViewController: UIViewController {
         questionNumber = 0
         
         imageView.image = UIImage(named: imagesList.list[0].imageText!)
+        
+        if UserDefaults.standard.object(forKey: "beforeCount") != nil {
+            maxScore = UserDefaults.standard.object(forKey: "beforeCount") as! Int
+            
+        }
+        maxScoreLabel.text = String(maxScore)
+        
         
     }
     @IBAction func answer(_ sender: Any) {
@@ -96,6 +106,10 @@ class ViewController: UIViewController {
         }
     }
     
+    func nowScore(score: Int) {
+        maxScoreLabel.text = String(score)
+    }
+    
     //画面が遷移する時の処理　performSegueが呼ばれた後に呼ばれるメソッド
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "next" {
@@ -103,6 +117,8 @@ class ViewController: UIViewController {
             
             nextVC.correctedCount = correctCount
             nextVC.wrongCount = wrongCount
+            nextVC.delegate = self
+            
             
         }
     }
